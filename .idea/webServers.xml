@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bf188cc6-ffb8-44b1-8dda-10a097d660d1" name="IKT" url="http://ah.ikt.khk.ee">
+        <fileTransfer host="ah.ikt.khk.ee" port="22" rootFolder="/home/airohass/public_html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
