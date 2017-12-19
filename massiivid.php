@@ -11,4 +11,10 @@ echo "<hr/>";
 echo "<pre>";
 print_r($arvud);
 echo "</pre>";
-
+echo "<hr/>";
+$elementideArv= count($arvud);
+echo "Meie massiiv $arvud koosneb $elementideArv elemendist.";
+echo "<br/>";
+for($i=0; $i<$elementideArv; $i++) {
+    echo $arvud[$i]."<br/>";
+}
